@@ -1,0 +1,35 @@
+{
+  "name": "votehelper",
+  "version": "0.0.1",
+  "description": "Script to assist voting in community discussions.",
+  "private": true,
+  "scripts": {
+    "build": "babel src/*.js --out-dir dist/",
+    "test": "eslint src/"
+  },
+  "repository": "git+https://github.com/MusikAnimal/VoteHelper.git",
+  "keywords": [
+    "Wikimedia",
+    "Wikipedia"
+  ],
+  "author": "MusikAnimal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MusikAnimal/VoteHelper/issues"
+  },
+  "homepage": "https://meta.wikimedia.org/VoteHelper/MoreMenu",
+  "main": "VoteHelper.js",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-plugin-add-header-comment": "^1.0.3",
+    "eslint": "^6.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "mwbot": "^1.0.10",
+    "request": "latest"
+  }
+}

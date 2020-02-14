@@ -1,0 +1,9 @@
+{
+  "name" : "voterhelper",
+  "title" : "VoterHelper",
+  "description" : "Scrit to assist with voting in community discussions and voters.",
+  "url" : "http://meta.wikimedia.org/VoterHelper",
+  "keywords" : "tools, scripts, survey, voting, RfC",
+  "author" : "MusikAnimal",
+  "repository" : "https://github.com/MusikAnimal/VoterHelper.git"
+}

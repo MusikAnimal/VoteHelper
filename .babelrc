@@ -1,0 +1,26 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "add-header-comment", {
+        "header": [
+          "WARNING: GLOBAL GADGET FILE",
+          "Compiled from source at https://github.com/MusikAnimal/VoteHelper",
+          "Please submit code changes as a pull request to the source repository at https://github.com/MusikAnimal/VoteHelper",
+          "Are there missing translations? See [[meta:VoteHelper#Localization].",
+          "Want to add custom links? See [[meta:VoteHelper#Customization]].",
+          "",
+          "Script:         VoteHelper.js",
+          "Version:        0.0.1",
+          "Author:         MusikAnimal",
+          "License:        MIT",
+          "Documentation:  [[meta:VoteHelper]]",
+          "GitHub:         https://github.com/MusikAnimal/VoteHelper",
+          "Skins:          Vector, Timeless, Monobook, Modern",
+          "Browsers:       See [[mw:Compatibility#Browsers]]"
+        ]
+      }
+    ]
+  ]
+}
+
